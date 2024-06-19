@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'package:flutter_use_case_app/basic_mvvm/view/basic_view.dart';
-
+import 'package:flutter_use_case_app/advanced_inherited/advance_inherited.dart';
+import 'package:flutter_use_case_app/advanced_inherited/model/inherited_user_model.dart';
 
 
 
@@ -20,6 +19,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const BasicView());
+        home:  AdvancedInheritedProvider(user: InheritedSampleUser(userName: 'Arican'),));
   }
 }

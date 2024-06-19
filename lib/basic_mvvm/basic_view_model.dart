@@ -8,7 +8,7 @@ final class BasicViewModel {
 
   Future<bool> controlUserName(BasicModel basicModel) async {
     await Future.delayed(const Duration(seconds: 2));
-    print(basicModel.userName);
+   // print(basicModel.userName);
     return basicModel.userName.length > 4 ? true : false;
   }
 

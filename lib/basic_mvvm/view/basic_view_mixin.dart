@@ -4,7 +4,6 @@ import 'package:flutter_use_case_app/basic_mvvm/basic_view_model.dart';
 import 'package:flutter_use_case_app/basic_mvvm/core/basic_cache.dart';
 import 'package:flutter_use_case_app/basic_mvvm/view/basic_view.dart';
 
-
 mixin BasicViewMixin on State<BasicView> {
   final TextEditingController usernameController = TextEditingController();
   final BasicViewModel _basicViewModel = BasicViewModel(cache: BasicCache());

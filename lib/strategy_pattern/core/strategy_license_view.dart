@@ -32,7 +32,7 @@ class _StrategyLicenseViewState extends State<StrategyLicenseView> {
 
     setState(() {
       _isCheck = value;
-      print(_isCheck);
+   //   print(_isCheck);
     });
   }
 
