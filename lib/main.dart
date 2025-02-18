@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_use_case_app/advanced_inherited/advance_inherited.dart';
-import 'package:flutter_use_case_app/advanced_inherited/model/inherited_user_model.dart';
+import 'package:flutter_use_case_app/loading_dialog/loading_dialog_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,8 +16,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: AdvancedInheritedProvider(
-          user: InheritedSampleUser(userName: 'Arican'),
-        ));
+        home: LoadingDialogView());
   }
 }
