@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_use_case_app/dynamic_bottom_sheet/custom_selection_view.dart';
+import 'package:flutter_use_case_app/getx_usage/getx_view/getx_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +17,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const CustomSelectionView());
+        home:  GetxView());
   }
 }
